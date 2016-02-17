@@ -1,6 +1,11 @@
 %h1= @pin.title
 %p= @pin.description
 
+Submitted by
+
+= @pin.user.email
+
+%br
 = link_to "Back", root_path
 = link_to "Edit", edit_pin_path
 = link_to "Delete", pin_path, method: :delete, data: {confirm: "Are you sure?"}
