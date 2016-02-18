@@ -193,23 +193,23 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  acts_as_votable (~> 0.10.0)
-  aws-sdk
-  bootstrap-sass (~> 3.3, >= 3.3.6)
+  acts_as_votable
+  aws-sdk (~> 2.2)
+  bootstrap-sass (~> 3.3)
   byebug
   coffee-rails (~> 4.1.0)
-  devise (~> 3.5, >= 3.5.6)
+  devise (~> 3.5)
   haml (~> 4.0, >= 4.0.7)
   jbuilder (~> 2.0)
   jquery-rails
-  masonry-rails (~> 0.2.4)
-  paperclip (~> 4.3, >= 4.3.5)
+  masonry-rails
+  paperclip (~> 4.3)
   pg
   rails (= 4.2.5)
   rails_12factor
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
-  simple_form (~> 3.2, >= 3.2.1)
+  simple_form (~> 3.2)
   spring
   sqlite3
   turbolinks
