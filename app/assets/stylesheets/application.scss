@@ -116,3 +116,37 @@ nav {
 textarea {
   min-height: 250px;
 }
+
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  border-top: 1px solid #000000;
+  color: #777;
+  padding: 5px 5px 5px 5px;
+}
+
+footer a {
+  color: #555;
+
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
